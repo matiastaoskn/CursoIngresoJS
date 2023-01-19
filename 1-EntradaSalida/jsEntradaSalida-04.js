@@ -4,6 +4,10 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
-	alert("ok");
+	var dato = prompt("Nombre?")
+
+	var boton = document.getElementById("txtIdNombre");
+	console.log(boton)
+	boton.placeholder = dato;
 }
 
